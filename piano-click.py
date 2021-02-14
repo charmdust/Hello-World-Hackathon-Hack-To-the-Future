@@ -25,19 +25,12 @@ ABC3.grid()
 
 #########################################################################
 
-##canvas = Canvas(root, width = 300, height = 300)
-#canvas.pack()
-#happy_cat = ImageTk.PhotoImage(Image.open("C:/Users/laura/Downloads/cat_happy.png"))
-#canvas.create_image(20,20,anchor=NW, image=happy_cat)
-
-#Trying to see if we can import happy cat here
-happy_cat = ImageTk.PhotoImage(Image.open("C:/Users/laura/Downloads/cat_happy.png"))
-sad_cat = ImageTk.PhotoImage(Image.open("C:/Users/laura/Downloads/kawaii-cat-sad.png"))
+happy_cat = ImageTk.PhotoImage(Image.open("./Images/kawaii-cat_happy.png"))
+sad_cat = ImageTk.PhotoImage(Image.open("./Images/kawaii-cat-sad.png"))
 
 label = Label(root, image=happy_cat)
 label2 = Label(root, image=sad_cat)
-##label.grid(row=1, column=2, columnspan=11)
-##label2.grid(row=2, column=2, columnspan=11)
+
 
 
 
@@ -115,80 +108,80 @@ def checkNoteToPlay(key):
 def valueCs():
   note.set('C#')
   checkNoteToPlay('C#') 	
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/C_s.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/C_s.wav")
   sound.play()
 
 def valueDs():
   note.set('D#')
   checkNoteToPlay('D#') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/D_s.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/D_s.wav")
   sound.play()
 
 def valueFs():
   note.set('F#')
   checkNoteToPlay('F#') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/F_s.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/F_s.wav")
   sound.play()
 
 def valueGs():
    note.set('G#')
    checkNoteToPlay('G#') 
-   sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/G_s.wav")
+   sound = pygame.mixer.Sound("./Music_Notes/G_s.wav")
    sound.play()
 
 def valueAs():
    note.set('A#')
    checkNoteToPlay('A#') 
-   sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/Bb.wav")
+   sound = pygame.mixer.Sound("./Music_Notes/Bb.wav")
    sound.play()
 
 def valueC():
   note.set('C')
   checkNoteToPlay('C') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/C.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/C.wav")
   sound.play()
 
 def valueD():
   note.set('D')
   checkNoteToPlay('D') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/D.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/D.wav")
   sound.play()
 
 def valueE():
   note.set('E')
   checkNoteToPlay('E') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/E.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/E.wav")
   sound.play()
 
 
 def valueF():
   note.set('F')
   checkNoteToPlay('F') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/F.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/F.wav")
   sound.play()
 
 def valueG():
    note.set('G')
    checkNoteToPlay('G') 
-   sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/G.wav")
+   sound = pygame.mixer.Sound("./Music_Notes/G.wav")
    sound.play()
 
 def valueA():
    note.set('A')
    checkNoteToPlay('A') 
-   sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/A.wav")
+   sound = pygame.mixer.Sound("./Music_Notes/A.wav")
    sound.play()
 
 def valueB():
   note.set('B')
   checkNoteToPlay('B') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/B.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/B.wav")
   sound.play()
 
 def valueC1():
   note.set('C1')
   checkNoteToPlay('C1') 
-  sound = pygame.mixer.Sound("C:/Users/laura/Downloads/Z_Music_Notes/Music_Notes/C1.wav")
+  sound = pygame.mixer.Sound("./Music_Notes/C1.wav")
   sound.play()
 
    
