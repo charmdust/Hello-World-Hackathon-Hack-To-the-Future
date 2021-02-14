@@ -264,7 +264,7 @@ btnB = Button(ABC2,height = 4,width = 5,bd = 4, text = "B (j)",font = ('arial',2
 btnB.grid(row=1,column=6,padx = 5, pady = 5)
 keyboard.add_hotkey('j', valueB)
 
-btnC1 = Button(ABC3,
+btnC1 = Button(ABC2,
                height=4,
                width=5,
                bd=4,
